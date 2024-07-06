@@ -1,0 +1,28 @@
+  
+  body {
+    background-image: url('../assets/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .register-container {
+    margin-top: 2rem;
+  }
+  
+  .register-form {
+    margin-top: 1rem;
+  }
+
+  
+  .register-input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: 'Kabel', sans-serif;
+  }
+  
+  

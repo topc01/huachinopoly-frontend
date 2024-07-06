@@ -1,0 +1,17 @@
+.board {
+    background-image: url('../assets/img/board.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.img-auto {
+    position: absolute;
+    top: 85%;
+    right: inherit;
+    left: 85%;
+    z-index: 1;
+}

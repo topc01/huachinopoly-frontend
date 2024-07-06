@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 25em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+body {
+  background-image: url('../assets/img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carta-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.carta {
+  margin-left: 40px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alineación vertical */
+}
+
+.carta:hover {
+  transform: translateY(-5px);
+}
+
+.carta-image {
+  margin-bottom: 1rem;
+}
+
+.carta-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.carta-description {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.carta button {
+  background-color: #ff4a4a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.carta button:hover {
+  background-color: #e63f3f;
+}
+
+.logout-container {
+  margin-top: 2rem;
+}
+
+.logout-container button {
+  background-color: #ff4a4a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.logout-container button:hover {
+  background-color: #e63f3f;
+}
+
+.footer {
+  margin-top: 2rem;
+  color: white;
+}

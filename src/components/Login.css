@@ -1,0 +1,66 @@
+.Login {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: #fff3f067;
+    font-family: 'Kabel', sans-serif;
+
+  }
+  
+  .Login form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Kabel', sans-serif;
+  }
+
+  .Login form input[type="text"],
+  .Login form input[type="mail"],
+  .Login form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: 'Kabel', sans-serif;
+  }
+  
+  .Login form input[type="submit"] {
+    background-color: #ff4a4a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Kabel', sans-serif;
+  }
+  
+  .Login form input[type="submit"]:hover {
+    background-color: #fd1b1b;
+    font-family: 'Kabel', sans-serif;
+  }
+
+  .error {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ff4d4d; /* red */
+    border-radius: 5px;
+    color: #fdfdfd; /* red */
+    background-color: #ff4a4a; /* light red */
+    text-align: center;
+  }
+
+  .successMsg {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #5cff4d; /* green */
+    border-radius: 5px;
+    color: #2aff86; /* green */
+    background-color: #e9ffe6; /* light green */
+    text-align: center;
+  }
